@@ -1,6 +1,10 @@
 ### Ghost Network
 The Ghost Network is the first solution provided by The Ghost Os Project. The goal of The Ghost Network is to create the infrastructure for peer to peer cloud networks. We aim to create the backbone to allow anyone to setup a simple cloud using existing devices.
 
+For a quick setup without all the details... [Getting Started Guide](getting-started/index.md)
+
+For a deep dive into The Ghost Network, continue below!
+
 The basic building blocks for The Ghost Network are as follows:
 - Ghost Port Mapper Daemon (GPMD)
 - Ghost Virtual Machine (GVM)
