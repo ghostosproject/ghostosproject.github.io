@@ -32,7 +32,7 @@ Current gpmd commands:
     - --file - where the file is being uploaded from
 
 ##### How Does GPMD Work With GVM?
-While technically gvm can run as a single instance, it is far less powerful than when it works in conjunction with other gvm nodes. This is the main reason why we have designed GVM to require GPMD to be running, so that the GVM will connect automatically and have access to all of the resources provided by default. We talk more about the internals of GVM and how it works in another [section](gvm/index.md).
+While technically gvm can run as a single instance, it is far less powerful than when it works in conjunction with other gvm nodes. This is the main reason why we have designed GVM to require GPMD to be running, so that the GVM will connect automatically and have access to all of the resources provided by default. We talk more about the internals of GVM and how it works in another [section](../gvm/index.md).
 
 **Node Registration & Connection**
 
@@ -40,7 +40,7 @@ When a GVM comes online it will automatically reach out to GPMD and register its
 
 When a GVM requests to discover nodes on the network, GPMD responds with the name of each discoverable node.
 
-When a GVM requests a connection to another node on the network, GPMD responds with the name, id, address, and port for the corresponding node. The calling node will use that information to request a connection with the requested node. From that point forward, those nodes are connected and can communicate directly. Direct communication between local nodes is discussed in another [section](gvm/index.md).
+When a GVM requests a connection to another node on the network, GPMD responds with the name, id, address, and port for the corresponding node. The calling node will use that information to request a connection with the requested node. From that point forward, those nodes are connected and can communicate directly. Direct communication between local nodes is discussed in another [section](../gvm/index.md).
 
 ***Remote Node Communication***
 Communication between nodes on remote devices will be implemented in Phase Two.
