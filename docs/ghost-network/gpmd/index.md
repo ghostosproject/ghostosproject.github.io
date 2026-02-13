@@ -74,4 +74,4 @@ A GVM Node will request a WASM Module using the GPMD connection established when
 
 If the Module is found, GPMD will respond with the Module name, version, hash, and binary as a base64 encoded string.
 
-More information on how GVM handles WASM Modules including requests is located in another [section](gvm/index.md).
+More information on how GVM handles WASM Modules including requests is located in another [section](../gvm/index.md).
