@@ -3,6 +3,8 @@
 The Ghost Port Mapper Daemon is a central piece of the Ghost Network. GPMD is responsible for the orchestration of connections between nodes in a network as well as the distribution of resources such as WASM Modules. 
 In this document, we will discuss how GPMD works, how it works in conjunction with GVM, and how to use it.
 
+The source code can be found at [https://github.com/ghostosproject/gpmd](https://github.com/ghostosproject/gpmd)
+
 ##### How Does GPMD Work?
 GPMD starts by running the "gpmd start" command.
 ```

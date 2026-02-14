@@ -4,6 +4,8 @@ The Ghost Virtual Machine is at the center of The Ghost Network. At it's core, i
 
 GVM is still in its infancy, but when combined with GPMD and other GVM Nodes, it creates a network of very useful primatives for building useful software.
 
+The source code can be found at [https://github.com/ghostosproject/gvm](https://github.com/ghostosproject/gvm)
+
 ##### How Does GVM Work?
 GVM can be started simply by running the "gvm" command in your terminal. GVM is created with a unique name and id for identification within the network.
 
